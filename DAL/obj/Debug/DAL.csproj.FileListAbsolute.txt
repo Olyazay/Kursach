@@ -1,8 +1,0 @@
-C:\Users\Olya Zaitceva\source\repos\InfoAboutBook\DAL\bin\Debug\DAL.dll
-C:\Users\Olya Zaitceva\source\repos\InfoAboutBook\DAL\bin\Debug\DAL.pdb
-C:\Users\Olya Zaitceva\source\repos\InfoAboutBook\DAL\bin\Debug\Contracts.dll
-C:\Users\Olya Zaitceva\source\repos\InfoAboutBook\DAL\bin\Debug\Contracts.pdb
-C:\Users\Olya Zaitceva\source\repos\InfoAboutBook\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
-C:\Users\Olya Zaitceva\source\repos\InfoAboutBook\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
-C:\Users\Olya Zaitceva\source\repos\InfoAboutBook\DAL\obj\Debug\DAL.dll
-C:\Users\Olya Zaitceva\source\repos\InfoAboutBook\DAL\obj\Debug\DAL.pdb
