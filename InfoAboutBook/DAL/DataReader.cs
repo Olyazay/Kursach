@@ -35,6 +35,7 @@ namespace DAL
             }
 
         }
+
         public byte[] ImageConverterToArray(string path)
         {
 

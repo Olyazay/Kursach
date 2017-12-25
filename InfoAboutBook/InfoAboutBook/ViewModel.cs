@@ -15,13 +15,13 @@ namespace InfoAboutBook
         public ViewModel()
         {
             Position = -1;
-            if (data.GetCollection()!=null)
+            if (data.GetCollection().Count>0)
             {
-
                 PhotoPathShop = data.GetCollection()[0].Image;
                 NameBook = data.GetCollection()[0].NameBook;
             }
 
+            
         }
         private String _nameBook;
         public String NameBook
@@ -54,23 +54,12 @@ namespace InfoAboutBook
         private Command _registrateNewUser;
         public Command RegistrateNewUser => _registrateNewUser ?? (_registrateNewUser = new Command(obj =>
         {
-            try
-            {
-                if (Position < data.GetCollection().Count - 1)
+                if ((Position < data.GetCollection().Count - 1)&&(data.GetCollection().Count > 0))
                 {
                     Position++;
                     PhotoPathShop = data.GetCollection().ElementAt(Position).Image;
                     NameBook = data.GetCollection().ElementAt(Position).NameBook;
                 }
-            }
-            catch (Exception)
-            {
-
-                throw;
-            }
-
-
-                
         }
         ));
         public event PropertyChangedEventHandler PropertyChanged;

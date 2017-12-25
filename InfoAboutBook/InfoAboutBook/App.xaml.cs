@@ -13,5 +13,27 @@ namespace InfoAboutBook
     /// </summary>
     public partial class App : Application
     {
+        public App()
+        {
+            AppDomain.CurrentDomain.UnhandledException += new UnhandledExceptionEventHandler(GlobalExceptionHandler);
+        }
+        private static void GlobalExceptionHandler(object sender, UnhandledExceptionEventArgs args)
+        {
+            int exitCode = 0;
+            try
+            {
+                Exception exception = (Exception)args.ExceptionObject;
+                exitCode = exception.GetHashCode();
+                MessageBox.Show("Ошибка! " + exception.Message, "Uncaught Thread Exception", MessageBoxButton.OK, MessageBoxImage.Error);
+            }
+            catch
+            {
+                exitCode = -1;
+            }
+            finally
+            {
+                Environment.Exit(exitCode);
+            }
+        }
     }
 }
