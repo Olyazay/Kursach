@@ -1,0 +1,24 @@
+﻿<Window x:Class="InfoAboutBook.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:InfoAboutBook"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525">
+    <Window.DataContext>
+        <local:ViewModel></local:ViewModel>
+    </Window.DataContext>
+    <Grid>
+        <Grid.Resources>
+            <local:ImageConvertor x:Key="Imagecon"></local:ImageConvertor>
+        </Grid.Resources>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="1*"></ColumnDefinition>
+            <ColumnDefinition Width="2*"></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <Button Command="{Binding RegistrateNewUser }" Grid.Column="2" Height="100">вперед</Button>
+        <Image Grid.Column="1" Source="{Binding PhotoPathShop , UpdateSourceTrigger=PropertyChanged, Mode=TwoWay, Converter={StaticResource Imagecon}}" ></Image>
+        </Grid>
+</Window>

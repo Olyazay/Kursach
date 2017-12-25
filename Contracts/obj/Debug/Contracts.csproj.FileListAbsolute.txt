@@ -1,0 +1,6 @@
+C:\Users\Olya Zaitceva\source\repos\InfoAboutBook\Contracts\bin\Debug\Contracts.dll
+C:\Users\Olya Zaitceva\source\repos\InfoAboutBook\Contracts\bin\Debug\Contracts.pdb
+C:\Users\Olya Zaitceva\source\repos\InfoAboutBook\Contracts\obj\Debug\Contracts.csprojResolveAssemblyReference.cache
+C:\Users\Olya Zaitceva\source\repos\InfoAboutBook\Contracts\obj\Debug\Contracts.csproj.CoreCompileInputs.cache
+C:\Users\Olya Zaitceva\source\repos\InfoAboutBook\Contracts\obj\Debug\Contracts.dll
+C:\Users\Olya Zaitceva\source\repos\InfoAboutBook\Contracts\obj\Debug\Contracts.pdb

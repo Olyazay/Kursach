@@ -1,0 +1,10 @@
+C:\Users\Olya Zaitceva\source\repos\InfoAboutBook\BL\bin\Debug\BL.dll
+C:\Users\Olya Zaitceva\source\repos\InfoAboutBook\BL\bin\Debug\BL.pdb
+C:\Users\Olya Zaitceva\source\repos\InfoAboutBook\BL\bin\Debug\Contracts.dll
+C:\Users\Olya Zaitceva\source\repos\InfoAboutBook\BL\bin\Debug\DAL.dll
+C:\Users\Olya Zaitceva\source\repos\InfoAboutBook\BL\bin\Debug\Contracts.pdb
+C:\Users\Olya Zaitceva\source\repos\InfoAboutBook\BL\bin\Debug\DAL.pdb
+C:\Users\Olya Zaitceva\source\repos\InfoAboutBook\BL\obj\Debug\BL.csprojResolveAssemblyReference.cache
+C:\Users\Olya Zaitceva\source\repos\InfoAboutBook\BL\obj\Debug\BL.csproj.CoreCompileInputs.cache
+C:\Users\Olya Zaitceva\source\repos\InfoAboutBook\BL\obj\Debug\BL.dll
+C:\Users\Olya Zaitceva\source\repos\InfoAboutBook\BL\obj\Debug\BL.pdb
