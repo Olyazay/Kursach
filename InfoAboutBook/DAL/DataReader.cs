@@ -10,6 +10,7 @@ using System.Drawing.Imaging;
 using System.IO;
 using System.Windows.Media.Imaging;
 using System.Runtime.Serialization.Formatters.Binary;
+using System.Windows;
 
 namespace DAL
 {
@@ -30,10 +31,9 @@ namespace DAL
             }
             catch (Exception)
             {
-
-                throw;
+                MessageBox.Show("Файл не найден"); 
             }
-
+            return null;
         }
 
         public byte[] ImageConverterToArray(string path)
